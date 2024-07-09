@@ -1,4 +1,5 @@
 <template>
+  <div>
   <v-select
     placeholder="PRODUTO"
     @search="debouncedSearch"
@@ -21,6 +22,7 @@
       <p class="no-options">Sem opção disponível</p>
     </template>
   </v-select>
+    </div>
 </template>
 
 <script>
